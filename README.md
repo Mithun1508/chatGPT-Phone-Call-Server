@@ -41,3 +41,12 @@ You can find this under `Account Info` in the Twilio dashboard.
 ## Vocode Docs
 
 To learn more about how Vocode works, check out their [documentation](https://docs.vocode.dev/welcome).
+
+## Demo
+A live demo of the ChatGPT phone call server is available, and users are encouraged to watch it to understand the interaction process.
+https://twitter.com/chillzaza_/status/1641255992045322240?s=20
+
+## Powered by Vocode
+The project proudly integrates Vocode for enhanced voice processing, providing a seamless and enjoyable user experience during phone calls with ChatGPT.
+
+Feel free to explore the code, contribute, and have fun chatting with ChatGPT over the phone! 🎉
