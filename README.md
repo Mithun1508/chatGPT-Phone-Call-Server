@@ -1,52 +1,43 @@
-# ChatGPT Phone Call Server
-
-Need help? Just call ChatGPT! Watch the live demo [here](https://twitter.com/chillzaza_/status/1641255992045322240?s=20).
-
-Here's a template to get started.
-
-Powered by [Vocode](https://docs.vocode.dev/welcome)
+## Introduction
+The ChatGPT Phone Call Server project aims to bridge the gap between traditional text-based chatbots and real-time voice interactions. By leveraging the capabilities of Twilio and Vocode, users can engage in natural conversations with ChatGPT over the phone, allowing for a seamless and immersive experience.
 
 ## Getting Started
+To get started with the ChatGPT Phone Call Server, follow these simple steps:
 
-1. Create a [Twilio](https://www.twilio.com/) account.
-2. Find your account credentials under `Account Info` in the dashboard.
-3. Set the environment variables `TWILIO_ACCOUNT_SID` and `TWILIO_AUTH_TOKEN` as Secrets in this Repl.
-4. From your Twilio dashboard, go to `Phone Numbers` -> `Manage` to get a new phone number.
-5. Update your number's configuration to point the Webhook URL to your Repl's URL (e.g. `https://<repl>.<username>.repl.co/vocode`. Here's a screenshot:
-   
-![Add Repl URL](TwilioConfigScreenshot.png)
+1 Create a Twilio Account: Sign up for a Twilio account and obtain your account credentials.
+2 Configure a Phone Number: From the Twilio dashboard, acquire a phone number and configure its Webhook URL to point to your server.
+3 Obtain a Vocode API Key: Sign up for a Vocode account and obtain an API key.
+4 Set Environment Variables: Set up the necessary environment variables for your server, including Twilio credentials and the Vocode API key.
 
-6. Grab an API key from Vocode [here](https://app.vocode.dev/).
-7. Call your number and have fun! 🥳
+## Project Structure
+The project consists of the following files and directories:
 
+`main.py`: The main Python script responsible for handling incoming calls and processing voice data.
+`pyproject.toml`: The Poetry project file for managing dependencies.
+Other configuration and setup files.
 
-**Make sure you set the following environment variables:**
+## Environment Setup
+Ensure that the following environment variables are properly configured:
 
-## Vocode API Key
+TWILIO_ACCOUNT_SID: Your Twilio account SID.
+TWILIO_AUTH_TOKEN: Your Twilio authentication token.
+VOCODE_API_KEY: Your Vocode API key.
 
-Set the environment variable `VOCODE_API_KEY` as a Secret in this Repl with your API key from [Vocode](https://app.vocode.dev/).
+## Integration with Twilio
+The ChatGPT Phone Call Server integrates seamlessly with Twilio to handle incoming phone calls. When a call is received, Twilio sends a webhook request to the server, which then processes the request and interacts with ChatGPT accordingly. Twilio's powerful API makes it easy to manage calls and handle voice data.
 
-## Twilio Account SID
+## Integration with Vocode
+Vocode plays a crucial role in enhancing the voice processing capabilities of the ChatGPT Phone Call Server. By leveraging Vocode's advanced voice processing technology, the server can accurately transcribe and analyze speech, enabling more natural and intuitive interactions with ChatGPT.
 
-Set the environment variable `TWILIO_ACCOUNT_SID` as a Secret in this Repl with your API key from [Twilio]([https://app.vocode.dev/](https://www.twilio.com/try-twilio)).
+## Demo and Live Example
+Check out the live demo of the ChatGPT Phone Call Server in action here. Feel free to call the provided phone number and engage in a conversation with ChatGPT! Experience firsthand how AI-driven voice interactions can revolutionize communication.
 
-You can find this under `Account Info` in the Twilio dashboard.
+## Conclusion
+The ChatGPT Phone Call Server project demonstrates the power of integrating AI-driven chatbots with real-time voice communication. By leveraging the capabilities of Twilio and Vocode, users can engage in natural conversations with ChatGPT over the phone, opening up exciting possibilities for AI-driven communication.
 
-## Twilio Auth Token
+Explore the code, contribute to the project, and start chatting with ChatGPT over the phone today!
 
-Set the environment variable `TWILIO_AUTH_TOKEN` as a Secret in this Repl with your API key from [Twilio]([https://app.vocode.dev/](https://www.twilio.com/try-twilio)).
-
-You can find this under `Account Info` in the Twilio dashboard.
-
-## Vocode Docs
-
-To learn more about how Vocode works, check out their [documentation](https://docs.vocode.dev/welcome).
-
-## Demo
-A live demo of the ChatGPT phone call server is available, and users are encouraged to watch it to understand the interaction process.
-https://twitter.com/chillzaza_/status/1641255992045322240?s=20
-
-## Powered by Vocode
-The project proudly integrates Vocode for enhanced voice processing, providing a seamless and enjoyable user experience during phone calls with ChatGPT.
-
-Feel free to explore the code, contribute, and have fun chatting with ChatGPT over the phone! 🎉
+Further Resources
+GitHub Repository
+Twilio Documentation
+Vocode Documentation
