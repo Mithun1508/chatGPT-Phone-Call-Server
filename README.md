@@ -1,3 +1,5 @@
+
+https://github.com/Mithun1508/ChatGPT-Phone-Call-Server/assets/93249038/e60ab1cd-cc82-4963-80c7-175894ecafcd
 ## Introduction
 The ChatGPT Phone Call Server project aims to bridge the gap between traditional text-based chatbots and real-time voice interactions. By leveraging the capabilities of Twilio and Vocode, users can engage in natural conversations with ChatGPT over the phone, allowing for a seamless and immersive experience.
 
@@ -44,10 +46,17 @@ The ChatGPT Phone Call Server project demonstrates the power of integrating AI-d
 
 Explore the code, contribute to the project, and start chatting with ChatGPT over the phone today!
 
-Further Resources
+## Further Resources
 
 GitHub Repository
 
 Twilio Documentation
 
 Vocode Documentation
+
+## Checkout the Live Demo 
+
+
+
+https://github.com/Mithun1508/ChatGPT-Phone-Call-Server/assets/93249038/9f2e2b99-1a92-4568-9955-afb82f4c8491
+
