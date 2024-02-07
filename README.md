@@ -5,14 +5,19 @@ The ChatGPT Phone Call Server project aims to bridge the gap between traditional
 To get started with the ChatGPT Phone Call Server, follow these simple steps:
 
 1 Create a Twilio Account: Sign up for a Twilio account and obtain your account credentials.
+
 2 Configure a Phone Number: From the Twilio dashboard, acquire a phone number and configure its Webhook URL to point to your server.
+
 3 Obtain a Vocode API Key: Sign up for a Vocode account and obtain an API key.
+
 4 Set Environment Variables: Set up the necessary environment variables for your server, including Twilio credentials and the Vocode API key.
+
 
 ## Project Structure
 The project consists of the following files and directories:
 
 `main.py`: The main Python script responsible for handling incoming calls and processing voice data.
+
 `pyproject.toml`: The Poetry project file for managing dependencies.
 Other configuration and setup files.
 
@@ -20,7 +25,9 @@ Other configuration and setup files.
 Ensure that the following environment variables are properly configured:
 
 TWILIO_ACCOUNT_SID: Your Twilio account SID.
+
 TWILIO_AUTH_TOKEN: Your Twilio authentication token.
+
 VOCODE_API_KEY: Your Vocode API key.
 
 ## Integration with Twilio
@@ -38,6 +45,9 @@ The ChatGPT Phone Call Server project demonstrates the power of integrating AI-d
 Explore the code, contribute to the project, and start chatting with ChatGPT over the phone today!
 
 Further Resources
+
 GitHub Repository
+
 Twilio Documentation
+
 Vocode Documentation
